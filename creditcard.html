@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="creditcard.css">  
+    <title>Payment Info</title>  
+</head>  
+<body>  
+    <div class="container">  
+        <div class="form-card">  
+            <div class="header">  
+                <img src="avatar/Happy Bunch Avatar.svg" alt="User Avatar" class="avatar">  
+                <h2>Payment info</h2>  
+            </div>  
+            <form>  
+                <label for="full-name">Full Name</label>  
+                <input type="text" id="full-name" placeholder="Alex Smith" required>  
+
+                <label for="card-number">Credit Card Number</label>  
+                <input type="text" id="card-number" placeholder="1234 1234 1234 1234" required>  
+
+                <div class="exp-cvv">  
+                    <div>  
+                        <label for="exp-date">Exp Date</label>  
+                        <input type="text" id="exp-date" placeholder="MM/YY" required>  
+                    </div>  
+                    <div>  
+                        <label for="cvv">CVV</label>  
+                        <input type="text" id="cvv" placeholder="CVV" required>  
+                    </div>  
+                </div>  
+
+                <label for="zip-code">Zip Code</label>  
+                <input type="text" id="zip-code" placeholder="90210" required>  
+
+                <button type="submit" class="confirm-button">Confirm Payment</button>  
+            </form>  
+            <p class="info-text">You verify that this info is correct</p>  
+        </div>  
+    </div>  
+</body>  
+</html>
